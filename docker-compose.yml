@@ -24,8 +24,8 @@ services:
 
   keycloak:
     container_name: keycloak
-    image: keycloak/keycloak:26.1.3
-#   image: my-keycloak:26.1.3-custom
+#   image: keycloak/keycloak:26.1.3
+    image: my-keycloak:26.1.3-custom
     restart: always
     ports:
       - 30000:8443
